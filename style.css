@@ -1,0 +1,87 @@
+body {
+    background-image: url("images/1296x728_6_Essential_Nutrients_and_Why_Your_Body_Needs_Them-Vitamins.jpg");
+}
+
+.container {
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+    position: relative;
+    background-position-x: 80%;
+    padding: 10px;
+    background-color: rgb(229, 243, 238);
+    min-height: 500px;
+    width: 800px;
+    text-align: center;
+    border: 1px solid rgb(57, 55, 55);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#name {
+    margin-left: -1em;
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(4, 102, 109);
+}
+
+#search {
+    margin-left: -2em;
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid rgb(183, 180, 180);
+    border-radius: 8px;
+}
+
+#submit {
+    width: 70px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: rgb(7, 155, 155);
+    font-size: 1em;
+    font-family: cursive;
+    color: aliceblue;
+#submit:hover{
+
+}
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 40px;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgb(237, 229, 229);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+    margin-left: 14em;
+
+}
